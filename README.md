@@ -7,6 +7,7 @@
 | Skill | Description |
 |-------|-------------|
 | [planning-with-files](skills/planning-with-files/) | Manus-style file-based planning for complex tasks |
+| [md-table-formatter](skills/md-table-formatter/) | Auto-format Markdown tables with proper alignment |
 
 ## Installation
 
@@ -29,9 +30,14 @@ droid-skills/
 ├── README.md
 ├── LICENSE
 └── skills/
-    └── planning-with-files/
+    ├── planning-with-files/
+    │   ├── SKILL.md
+    │   ├── hooks.json
+    │   └── templates/
+    └── md-table-formatter/
         ├── SKILL.md
-        └── templates/
+        ├── hooks.json
+        └── scripts/
 ```
 
 ## Contributing

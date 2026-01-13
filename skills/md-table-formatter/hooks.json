@@ -1,0 +1,17 @@
+{
+  "description": "Markdown table formatter - auto-formats tables after file edits",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/.factory/skills/md-table-formatter/scripts/format-tables.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
