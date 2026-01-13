@@ -8,6 +8,7 @@
 |-------|-------------|
 | [planning-with-files](skills/planning-with-files/) | Manus-style file-based planning for complex tasks |
 | [md-table-formatter](skills/md-table-formatter/) | Auto-format Markdown tables with proper alignment |
+| [superpowers](skills/superpowers/) | Complete development workflow (14 skills) |
 
 ## Installation
 
@@ -31,13 +32,14 @@ droid-skills/
 ├── LICENSE
 └── skills/
     ├── planning-with-files/
-    │   ├── SKILL.md
-    │   ├── hooks.json
-    │   └── templates/
-    └── md-table-formatter/
-        ├── SKILL.md
-        ├── hooks.json
-        └── scripts/
+    ├── md-table-formatter/
+    └── superpowers/
+        ├── brainstorming/
+        ├── writing-plans/
+        ├── executing-plans/
+        ├── test-driven-development/
+        ├── systematic-debugging/
+        └── ... (14 skills total)
 ```
 
 ## Contributing
