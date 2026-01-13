@@ -4,6 +4,35 @@
 
 Converted from [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) Claude Code plugin.
 
+## Installation
+
+### 1. Install the Skill
+
+```bash
+# Personal skill
+cp -r . ~/.factory/skills/planning-with-files/
+
+# Or project skill
+cp -r . <your-repo>/.factory/skills/planning-with-files/
+```
+
+### 2. Install Hooks (Optional but Recommended)
+
+Merge the hooks from `hooks.json` into your settings:
+
+```bash
+# Edit your settings file
+# ~/.factory/settings.json (personal) or .factory/settings.json (project)
+```
+
+Add the hooks configuration from `hooks.json` to your settings.
+
+The hooks provide:
+- **SessionStart**: Reminder to create planning files
+- **PreToolUse**: Auto-reads task_plan.md before Write/Edit/Bash operations
+- **PostToolUse**: Reminds to update status after file changes
+- **Stop**: Verifies all phases are complete before finishing
+
 ## The Core Pattern
 
 ```
